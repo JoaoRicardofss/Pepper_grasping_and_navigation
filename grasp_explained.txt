@@ -1,3 +1,9 @@
+To Run the scripts start by copying them into the same directory.
+
+Start by using choregraphe to deactivate the autonomous life of the robot. Make sure the IP_adress is adjusted to your robot. 
+In case you don't know the IP, connect to the same network as the robot and click on pepper power button once.
+
+
 To Run the grasping implemtentation script you should run the functions in order:
 	-first explore in order to create a map and be able to use the navigation method. After the exploration the robot will stop in a random position
 	-before running the definition of points in map, orientate the robot to the best orientation for your application. This orientation can be made by hand. it will not afect the coordinate system
