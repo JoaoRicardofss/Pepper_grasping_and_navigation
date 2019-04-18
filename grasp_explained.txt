@@ -1,0 +1,17 @@
+To Run the grasping implemtentation script you should run the functions in order:
+	-first explore in order to create a map and be able to use the navigation method. After the exploration the robot will stop in a random position
+	-before running the definition of points in map, orientate the robot to the best orientation for your application. This orientation can be made by hand. it will not afect the coordinate system
+	-if the robot is not correctly orinetated it will agravate the floatation between navigation and the define points, increasing the chance of not working properly.
+	
+	-second def-point. Change the coordinates and the number of points that you see fit for your application. see if the path taken by the robot is satisfatory
+	and if when he finishes the movement is correctly orientated in relation to the object. 
+	
+	-after the definition of points the robot navigates to the home-position. see if the robot stops relatively close to the spot where he began the definition of points
+	in case the navigation home is correct and the definition of points is well done, the main function should work properly. 
+	
+	Take time to adjust every detail and make sure you know how it works before trying to activate it with voice command.
+	
+	
+If you want to see the path taken by the robot you can use the path_implementation script. it follows the same structure as the grasp implementation but it uses threads to make the plotting of the path. Its heavier to your computer and to the robot.
+
+	
